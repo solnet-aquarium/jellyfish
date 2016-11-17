@@ -1,0 +1,13 @@
+
+/reports/
+/node_modules/
+/dist/
+/npm-debug.log
+/typings/
+/e2e/typings/
+.DS_STORE
+.idea
+/coverage/
+/features/support/generated.steps.js
+debug.log
+npm-debug.*
