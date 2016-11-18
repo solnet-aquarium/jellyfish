@@ -14,6 +14,7 @@
     "cucumber:autocomplete": "npm run cucumber:clean && node ./cucumber.generate.js ./features/steps_definitions",
     "cucumber:clean": "rimraf ./node_modules/cucumber-html-report/features",
     "show-report": "http-server ./reports/cucumber -o -p 4444",
+    "heroku": "http-server ./reports/cucumber -o -p $PORT",
     "webdriver-manager": "webdriver-manager",
     "webdriver-manager:update": "webdriver-manager update",
     "webdriver-manager:update:ie": "webdriver-manager update --ie",
@@ -22,6 +23,9 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
@@ -31,7 +35,6 @@
     "dogfish": "^1.4.2",
     "fs-extra": "^1.0.0",
     "glob": "^7.1.1",
-    "http-server": "^0.9.0",
     "npm-run-all": "^3.1.1",
     "protractor": "^4.0.11",
     "protractor-cucumber-framework": "^0.6.0",
