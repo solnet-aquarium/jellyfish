@@ -2,6 +2,9 @@
 
 >Cucumber test automation scaffold
 
+[![Build Status](https://travis-ci.org/solnet-aquarium/jellyfish.svg)](https://travis-ci.org/solnet-aquarium/jellyfish)
+[![Sauce Test Status](https://saucelabs.com/buildstatus/Kauabunga)](https://saucelabs.com/u/Kauabunga)
+
 ## Prerequisites
 
 - [Git](https://git-scm.com/)
