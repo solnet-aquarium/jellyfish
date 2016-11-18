@@ -14,7 +14,7 @@ before_deploy:
 - ls -ltra
 deploy:
   provider: heroku
-  app: jellyfish
+  app: solnet-jellyfish
   skip_cleanup: true
   on:
     branch: master
