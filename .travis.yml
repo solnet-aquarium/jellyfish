@@ -1,7 +1,7 @@
 language: node_js
 sudo: required
 node_js:
-- 4.2.3
+- 7.1.0
 matrix:
   fast_finish: true
   allow_failures:
@@ -9,7 +9,7 @@ matrix:
 before_script:
 - npm run setup
 - ls -ltra
-- ls -ltra node_modules/@types
+- ls -ltra node_modules
 before_deploy:
 - ls -ltra
 deploy:
