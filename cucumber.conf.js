@@ -43,7 +43,7 @@ function getBrowserConfig(browser){
             'args': ['show-fps-counter=true']
           }
         },
-        directConnect: true
+        // directConnect: true
       };
 
 
