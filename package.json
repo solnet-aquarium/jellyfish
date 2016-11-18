@@ -14,7 +14,7 @@
     "cucumber:autocomplete": "npm run cucumber:clean && node ./cucumber.generate.js ./features/steps_definitions",
     "cucumber:clean": "rimraf ./node_modules/cucumber-html-report/features",
     "show-report": "http-server ./reports/cucumber -o -p 4444",
-    "heroku": "http-server ./reports/cucumber -o -p $PORT",
+    "heroku": "http-server ./reports/cucumber -p $PORT",
     "webdriver-manager": "webdriver-manager",
     "webdriver-manager:update": "webdriver-manager update",
     "webdriver-manager:update:ie": "webdriver-manager update --ie",
