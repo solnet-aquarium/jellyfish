@@ -9,6 +9,21 @@ require('ts-node').register({
     moduleResolution: "node",
     declaration: true,
     allowSyntheticDefaultImports: true,
+    types: [
+        "node",
+        "angular-protractor",
+        "bluebird",
+        "chalk",
+        "form-data",
+        "jasmine",
+        "moment",
+        "node",
+        "q",
+        "ramda",
+        "request",
+        "request-promise",
+        "selenium-webdriver"
+    ],
     typeRoots: ["./node_modules/@types", "./typings/globals"]
   }
 });
@@ -43,7 +58,7 @@ function getBrowserConfig(browser){
             'args': ['show-fps-counter=true']
           }
         },
-        // directConnect: true
+        directConnect: ! process.env.SAUCE_USERNAME
       };
 
 
