@@ -8,6 +8,8 @@ matrix:
   - node_js: 5.1.1
 before_script:
 - npm run setup
+- ls -ltra
+- ls -ltra node_modules/@types
 before_deploy:
 - ls -ltra
 deploy:
