@@ -63,6 +63,10 @@ function getBaseConfig(){
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
 
+    // Credientials for Saucelabs
+    sauceUser: process.env.SAUCE_USERNAME,
+    sauceKey: process.env.SAUCE_ACCESS_KEY,
+
     onPrepare: function() {
       browser.ignoreSynchronization = true;
     },
