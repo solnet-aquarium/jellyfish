@@ -1,3 +1,6 @@
+# Jellyfish
+
+>Cucumber test automation scaffold
 
 ## Prerequisites
 
@@ -14,3 +17,7 @@
 4. `npm test`
 5. `npm start`
 
+
+## Create a word document
+
+`npm run create-document`

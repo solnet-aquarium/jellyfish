@@ -17,7 +17,8 @@
     "webdriver-manager": "webdriver-manager",
     "webdriver-manager:update": "webdriver-manager update",
     "webdriver-manager:update:ie": "webdriver-manager update --ie",
-    "webdriver-manager:start": "webdriver-manager start"
+    "webdriver-manager:start": "webdriver-manager start",
+    "create-document": "dogfish sprint-board --included-sections 'Feature,Acceptance Criteria' --output-file ./reports/features.docx --features-path ./features"
   },
   "author": "",
   "license": "ISC",
