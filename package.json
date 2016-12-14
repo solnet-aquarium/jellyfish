@@ -1,6 +1,6 @@
 {
   "name": "jellyfish",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cucumber test automation scaffold",
   "repository": "https://github.com/solnet-aquarium/jellyfish",
   "main": "index.js",
